@@ -1,0 +1,15 @@
+C:\C_CODE\Github_PROJECT\my-repo\dotnet\ExampleApp\bin\Debug\net9.0\ExampleApp.exe
+C:\C_CODE\Github_PROJECT\my-repo\dotnet\ExampleApp\bin\Debug\net9.0\ExampleApp.deps.json
+C:\C_CODE\Github_PROJECT\my-repo\dotnet\ExampleApp\bin\Debug\net9.0\ExampleApp.runtimeconfig.json
+C:\C_CODE\Github_PROJECT\my-repo\dotnet\ExampleApp\bin\Debug\net9.0\ExampleApp.dll
+C:\C_CODE\Github_PROJECT\my-repo\dotnet\ExampleApp\bin\Debug\net9.0\ExampleApp.pdb
+C:\C_CODE\Github_PROJECT\my-repo\dotnet\ExampleApp\obj\Debug\net9.0\ExampleApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\C_CODE\Github_PROJECT\my-repo\dotnet\ExampleApp\obj\Debug\net9.0\ExampleApp.AssemblyInfoInputs.cache
+C:\C_CODE\Github_PROJECT\my-repo\dotnet\ExampleApp\obj\Debug\net9.0\ExampleApp.AssemblyInfo.cs
+C:\C_CODE\Github_PROJECT\my-repo\dotnet\ExampleApp\obj\Debug\net9.0\ExampleApp.csproj.CoreCompileInputs.cache
+C:\C_CODE\Github_PROJECT\my-repo\dotnet\ExampleApp\obj\Debug\net9.0\ExampleApp.sourcelink.json
+C:\C_CODE\Github_PROJECT\my-repo\dotnet\ExampleApp\obj\Debug\net9.0\ExampleApp.dll
+C:\C_CODE\Github_PROJECT\my-repo\dotnet\ExampleApp\obj\Debug\net9.0\refint\ExampleApp.dll
+C:\C_CODE\Github_PROJECT\my-repo\dotnet\ExampleApp\obj\Debug\net9.0\ExampleApp.pdb
+C:\C_CODE\Github_PROJECT\my-repo\dotnet\ExampleApp\obj\Debug\net9.0\ExampleApp.genruntimeconfig.cache
+C:\C_CODE\Github_PROJECT\my-repo\dotnet\ExampleApp\obj\Debug\net9.0\ref\ExampleApp.dll
