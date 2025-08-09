@@ -1,0 +1,38 @@
+name: Release
+on:
+  push:
+    tags:
+      - 'v[0-9]+.[0-9]+.[0-9]+'
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    env:
+      VERSION: ${{ github.ref_name }}
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '9.0.x'
+
+      - name: Restore dependencies
+        run: dotnet restore ./dotnet/ExampleApp/ExampleApp.csproj
+
+      - name: Build
+        run: dotnet publish ./dotnet/ExampleApp/ExampleApp.csproj -c Release -o ${{ runner.temp }}/publish /p:Version=${VERSION}
+
+      - name: Rename binary
+        run: mv ${{ runner.temp }}/publish/ExampleApp ${{ runner.temp }}/exampleapp
+
+      - name: Create Release
+        run: gh release create "${VERSION}" --title "${VERSION}" --generate-notes
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Upload Release Asset
+        run: gh release upload "${VERSION}" "${{ runner.temp }}/exampleapp"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
